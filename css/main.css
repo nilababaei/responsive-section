@@ -25,3 +25,128 @@ body {
 html {
   font: normal 100%/1.3 Noto Sans, sans-serif;
 }
+
+.wrapper {
+  background-color: #e5c30a;
+  padding: 1rem;
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+  max-width: 45em;
+}
+
+.section-letter {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.section-icon {
+  display: inline-block;
+  float: right;
+  width: 50%;
+}
+
+h2, p {
+  margin: 0;
+}
+
+p {
+  width: 90%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .section-icon,
+  .section-letter {
+    width: 40%;
+  }
+
+  .section-icon {
+    margin-right: 1.4rem;
+  }
+
+  .section-letter {
+    margin-left: 1.4rem;
+  }
+
+  p {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .wrapper {
+    padding: 1.3rem;
+  }
+
+  .section-icon,
+  .section-letter {
+    width: 15%;
+  }
+
+  .section-letter {
+    margin-right: 2rem;
+  }
+
+  p {
+    width: 75%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+  font-size: 120%;
+  line-height: 1.5;
+  }
+
+  .wrapper {
+    padding-bottom: 3rem;
+  }
+
+  .section-icon,
+  .section-letter {
+    width: 16%;
+  }
+
+  .section-letter {
+    margin-right: 2.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+   font-size: 130%;
+  }
+
+  .section-icon,
+  .section-letter {
+    width: 10%;
+  }
+
+  .section-icon {
+    margin-right: 13rem;
+  }
+
+  .section-letter {
+    margin-left: 13rem;
+  }
+
+  p {
+    width: 70%;
+  }
+
+}
