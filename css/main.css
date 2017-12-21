@@ -36,7 +36,7 @@ section {
 
 .wrapper {
   max-width: 45em;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .section-letter {
